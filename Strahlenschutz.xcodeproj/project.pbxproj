@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F97BDB92A6079DE0044EBE1 /* StrahlenschutzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97BDB82A6079DE0044EBE1 /* StrahlenschutzApp.swift */; };
+		7F97BDBD2A6079E00044EBE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F97BDBC2A6079E00044EBE1 /* Assets.xcassets */; };
+		7F97BDC02A6079E00044EBE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F97BDBF2A6079E00044EBE1 /* Preview Assets.xcassets */; };
+		7F97BDC22A6079E00044EBE1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97BDC12A6079E00044EBE1 /* Persistence.swift */; };
+		7F97BDC52A6079E00044EBE1 /* Strahlenschutz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F97BDC32A6079E00044EBE1 /* Strahlenschutz.xcdatamodeld */; };
+		7F97BDCF2A6079E00044EBE1 /* StrahlenschutzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97BDCE2A6079E00044EBE1 /* StrahlenschutzTests.swift */; };
+		7F97BDD92A6079E00044EBE1 /* StrahlenschutzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97BDD82A6079E00044EBE1 /* StrahlenschutzUITests.swift */; };
+		7F97BDDB2A6079E00044EBE1 /* StrahlenschutzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97BDDA2A6079E00044EBE1 /* StrahlenschutzUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F97BDCB2A6079E00044EBE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F97BDAD2A6079DE0044EBE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F97BDB42A6079DE0044EBE1;
+			remoteInfo = Strahlenschutz;
+		};
+		7F97BDD52A6079E00044EBE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F97BDAD2A6079DE0044EBE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F97BDB42A6079DE0044EBE1;
+			remoteInfo = Strahlenschutz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F97BDB52A6079DE0044EBE1 /* Strahlenschutz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strahlenschutz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F97BDB82A6079DE0044EBE1 /* StrahlenschutzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrahlenschutzApp.swift; sourceTree = "<group>"; };
+		7F97BDBC2A6079E00044EBE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F97BDBF2A6079E00044EBE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F97BDC12A6079E00044EBE1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7F97BDC42A6079E00044EBE1 /* Strahlenschutz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Strahlenschutz.xcdatamodel; sourceTree = "<group>"; };
+		7F97BDCA2A6079E00044EBE1 /* StrahlenschutzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrahlenschutzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F97BDCE2A6079E00044EBE1 /* StrahlenschutzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrahlenschutzTests.swift; sourceTree = "<group>"; };
+		7F97BDD42A6079E00044EBE1 /* StrahlenschutzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrahlenschutzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F97BDD82A6079E00044EBE1 /* StrahlenschutzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrahlenschutzUITests.swift; sourceTree = "<group>"; };
+		7F97BDDA2A6079E00044EBE1 /* StrahlenschutzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrahlenschutzUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F97BDB22A6079DE0044EBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F97BDC72A6079E00044EBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F97BDD12A6079E00044EBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F97BDAC2A6079DE0044EBE1 = {
+			isa = PBXGroup;
+			children = (
+				7F97BDB72A6079DE0044EBE1 /* Strahlenschutz */,
+				7F97BDCD2A6079E00044EBE1 /* StrahlenschutzTests */,
+				7F97BDD72A6079E00044EBE1 /* StrahlenschutzUITests */,
+				7F97BDB62A6079DE0044EBE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F97BDB62A6079DE0044EBE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F97BDB52A6079DE0044EBE1 /* Strahlenschutz.app */,
+				7F97BDCA2A6079E00044EBE1 /* StrahlenschutzTests.xctest */,
+				7F97BDD42A6079E00044EBE1 /* StrahlenschutzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F97BDB72A6079DE0044EBE1 /* Strahlenschutz */ = {
+			isa = PBXGroup;
+			children = (
+				7F97BDB82A6079DE0044EBE1 /* StrahlenschutzApp.swift */,
+				7F97BDBC2A6079E00044EBE1 /* Assets.xcassets */,
+				7F97BDC12A6079E00044EBE1 /* Persistence.swift */,
+				7F97BDC32A6079E00044EBE1 /* Strahlenschutz.xcdatamodeld */,
+				7F97BDBE2A6079E00044EBE1 /* Preview Content */,
+			);
+			path = Strahlenschutz;
+			sourceTree = "<group>";
+		};
+		7F97BDBE2A6079E00044EBE1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F97BDBF2A6079E00044EBE1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F97BDCD2A6079E00044EBE1 /* StrahlenschutzTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F97BDCE2A6079E00044EBE1 /* StrahlenschutzTests.swift */,
+			);
+			path = StrahlenschutzTests;
+			sourceTree = "<group>";
+		};
+		7F97BDD72A6079E00044EBE1 /* StrahlenschutzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F97BDD82A6079E00044EBE1 /* StrahlenschutzUITests.swift */,
+				7F97BDDA2A6079E00044EBE1 /* StrahlenschutzUITestsLaunchTests.swift */,
+			);
+			path = StrahlenschutzUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F97BDB42A6079DE0044EBE1 /* Strahlenschutz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F97BDDE2A6079E00044EBE1 /* Build configuration list for PBXNativeTarget "Strahlenschutz" */;
+			buildPhases = (
+				7F97BDB12A6079DE0044EBE1 /* Sources */,
+				7F97BDB22A6079DE0044EBE1 /* Frameworks */,
+				7F97BDB32A6079DE0044EBE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Strahlenschutz;
+			productName = Strahlenschutz;
+			productReference = 7F97BDB52A6079DE0044EBE1 /* Strahlenschutz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F97BDC92A6079E00044EBE1 /* StrahlenschutzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F97BDE12A6079E00044EBE1 /* Build configuration list for PBXNativeTarget "StrahlenschutzTests" */;
+			buildPhases = (
+				7F97BDC62A6079E00044EBE1 /* Sources */,
+				7F97BDC72A6079E00044EBE1 /* Frameworks */,
+				7F97BDC82A6079E00044EBE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F97BDCC2A6079E00044EBE1 /* PBXTargetDependency */,
+			);
+			name = StrahlenschutzTests;
+			productName = StrahlenschutzTests;
+			productReference = 7F97BDCA2A6079E00044EBE1 /* StrahlenschutzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F97BDD32A6079E00044EBE1 /* StrahlenschutzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F97BDE42A6079E00044EBE1 /* Build configuration list for PBXNativeTarget "StrahlenschutzUITests" */;
+			buildPhases = (
+				7F97BDD02A6079E00044EBE1 /* Sources */,
+				7F97BDD12A6079E00044EBE1 /* Frameworks */,
+				7F97BDD22A6079E00044EBE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F97BDD62A6079E00044EBE1 /* PBXTargetDependency */,
+			);
+			name = StrahlenschutzUITests;
+			productName = StrahlenschutzUITests;
+			productReference = 7F97BDD42A6079E00044EBE1 /* StrahlenschutzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F97BDAD2A6079DE0044EBE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7F97BDB42A6079DE0044EBE1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					7F97BDC92A6079E00044EBE1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7F97BDB42A6079DE0044EBE1;
+					};
+					7F97BDD32A6079E00044EBE1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7F97BDB42A6079DE0044EBE1;
+					};
+				};
+			};
+			buildConfigurationList = 7F97BDB02A6079DE0044EBE1 /* Build configuration list for PBXProject "Strahlenschutz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F97BDAC2A6079DE0044EBE1;
+			productRefGroup = 7F97BDB62A6079DE0044EBE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F97BDB42A6079DE0044EBE1 /* Strahlenschutz */,
+				7F97BDC92A6079E00044EBE1 /* StrahlenschutzTests */,
+				7F97BDD32A6079E00044EBE1 /* StrahlenschutzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F97BDB32A6079DE0044EBE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F97BDC02A6079E00044EBE1 /* Preview Assets.xcassets in Resources */,
+				7F97BDBD2A6079E00044EBE1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F97BDC82A6079E00044EBE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F97BDD22A6079E00044EBE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F97BDB12A6079DE0044EBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F97BDC22A6079E00044EBE1 /* Persistence.swift in Sources */,
+				7F97BDC52A6079E00044EBE1 /* Strahlenschutz.xcdatamodeld in Sources */,
+				7F97BDB92A6079DE0044EBE1 /* StrahlenschutzApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F97BDC62A6079E00044EBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F97BDCF2A6079E00044EBE1 /* StrahlenschutzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F97BDD02A6079E00044EBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F97BDDB2A6079E00044EBE1 /* StrahlenschutzUITestsLaunchTests.swift in Sources */,
+				7F97BDD92A6079E00044EBE1 /* StrahlenschutzUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F97BDCC2A6079E00044EBE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F97BDB42A6079DE0044EBE1 /* Strahlenschutz */;
+			targetProxy = 7F97BDCB2A6079E00044EBE1 /* PBXContainerItemProxy */;
+		};
+		7F97BDD62A6079E00044EBE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F97BDB42A6079DE0044EBE1 /* Strahlenschutz */;
+			targetProxy = 7F97BDD52A6079E00044EBE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7F97BDDC2A6079E00044EBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F97BDDD2A6079E00044EBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F97BDDF2A6079E00044EBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Strahlenschutz/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AX93533HR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meyhoefer.Strahlenschutz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F97BDE02A6079E00044EBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Strahlenschutz/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AX93533HR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meyhoefer.Strahlenschutz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F97BDE22A6079E00044EBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AX93533HR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meyhoefer.StrahlenschutzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Strahlenschutz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Strahlenschutz";
+			};
+			name = Debug;
+		};
+		7F97BDE32A6079E00044EBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AX93533HR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meyhoefer.StrahlenschutzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Strahlenschutz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Strahlenschutz";
+			};
+			name = Release;
+		};
+		7F97BDE52A6079E00044EBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AX93533HR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meyhoefer.StrahlenschutzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Strahlenschutz;
+			};
+			name = Debug;
+		};
+		7F97BDE62A6079E00044EBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AX93533HR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meyhoefer.StrahlenschutzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Strahlenschutz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F97BDB02A6079DE0044EBE1 /* Build configuration list for PBXProject "Strahlenschutz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F97BDDC2A6079E00044EBE1 /* Debug */,
+				7F97BDDD2A6079E00044EBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F97BDDE2A6079E00044EBE1 /* Build configuration list for PBXNativeTarget "Strahlenschutz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F97BDDF2A6079E00044EBE1 /* Debug */,
+				7F97BDE02A6079E00044EBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F97BDE12A6079E00044EBE1 /* Build configuration list for PBXNativeTarget "StrahlenschutzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F97BDE22A6079E00044EBE1 /* Debug */,
+				7F97BDE32A6079E00044EBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F97BDE42A6079E00044EBE1 /* Build configuration list for PBXNativeTarget "StrahlenschutzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F97BDE52A6079E00044EBE1 /* Debug */,
+				7F97BDE62A6079E00044EBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7F97BDC32A6079E00044EBE1 /* Strahlenschutz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7F97BDC42A6079E00044EBE1 /* Strahlenschutz.xcdatamodel */,
+			);
+			currentVersion = 7F97BDC42A6079E00044EBE1 /* Strahlenschutz.xcdatamodel */;
+			path = Strahlenschutz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7F97BDAD2A6079DE0044EBE1 /* Project object */;
+}
